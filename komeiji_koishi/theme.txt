@@ -3,7 +3,7 @@
 
 # Global Property
 title-text: ""
-desktop-image: "background_ventoy.png"
+desktop-image: "background.png"
 desktop-color: "#242424"
 terminal-font: "Cascadia Code Regular 18"
 terminal-box: "terminal_box_*.png"
@@ -12,6 +12,14 @@ terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
+
+
+# Info Message
++ image {
+ top = 0%
+ left = 0%
+ file = "info.png"
+}
 
 # Show the boot menu
 + boot_menu {
